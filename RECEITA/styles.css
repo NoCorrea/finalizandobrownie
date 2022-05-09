@@ -1,0 +1,142 @@
+body {
+    background-color:#F0F0F0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: #ffffff;  
+    border-radius:  5px;
+    width: 798px;
+    height: 574px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.title {
+    color: #ff6a28;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #61656D;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.image {
+    margin-top: 14px;
+    width: 100%;
+}
+.info-box {
+    width: 118px;
+    height: 70px;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+}
+
+.info-text {
+    margin-top: 8px;
+    color: #61656D;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.info-strong-text {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #FF6A28;
+    text-transform: uppercase;
+}
+
+    .info-wrapper {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+
+    }
+    .owner-box {
+        width: 238px;
+        height: 70px;
+        background-color: #F0F0F0;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            }
+    .owner-wrapper{
+        width: 60px;
+        height: 60px;
+    }
+    .owner-info-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 11px;
+    }
+    .owner-name{
+        font-weight: 700px;
+        font-size: 14px;
+        color: #FF6A28;
+    }
+    .owner-info{
+        color: #61656D;
+        font-size: 14px;
+    }
+    .ingredients-box{
+        margin-top: 37px;
+    }
+
+    .title-wrapper{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .icon-title{
+        margin-left: 8px;
+    }
+    .list{
+        list-style-position: inside;
+        margin-top: 12px;
+    }
+    .list-item{
+        margin-bottom: 10px;
+        color: #61656D;
+    }
+    .preparation-box{
+        margin-top: 16px;
+    }
+    .preparation-item{
+        margin-bottom: 20px;
+    }
+    .add-info-box{
+        margin-top: 16px;
+    }
+    .secundary-title{
+        background-color: #F0F0F0;
+        padding: 8px 0;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #61656D;
+        text-align: center;
+    }
+        .add-info-text{
+            text-align:justify;
+            color:#61656D;
+            font-size: 14px;
+        }
